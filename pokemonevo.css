@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+.selects{
+    padding-top: 11%;
+    display: flex;
+    justify-content: center;
+}
+
+.effectiveness{
+    color: black;
+}
+
+center{
+    padding-top: 10px;
+}
+
+center ul{
+    list-style-type: none;
+}
+
+.confirm{
+    color: black;
+}
+
+
+.translation{
+    background-color: rgba(73, 214, 31, 0.39);
+    width: 310px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.spec-translation{
+    width: fit-content;
+}
+
+
+
+.searchresult{
+    width: 280px;
+}
+
+
+
+.thistype{
+    visibility: hidden;
+    color: black;
+}
+
+.effective-types{
+    margin-top: 0;
+}
+
+.effective-types button{
+    color: black;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+}
+.very-types button{
+    color: black;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+}
+
+.effective-title{
+    margin: 0;
+    margin-top: 4%;
+    padding: 0;
+}
+.very-title{
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+}
+
+
+
+.status-marker{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-style: italic;
+}
+
+
+/* Type buttons */
+.Normal{
+    background-color: rgb(168, 168, 120);
+    border-color: rgb(138, 138, 90);
+}
+
+.Fire{
+    background-color: rgb(240, 128, 48);
+    border-color: rgb(210, 98, 18);
+}
+
+.Water{
+    background-color: rgb(104, 144, 240);
+    border-color: rgb(74, 114, 210);
+}
+
+.Grass{
+    background-color: rgb(120, 200, 80);
+    border-color: rgb(90, 170, 50);
+}
+
+.Electric{
+    background-color: rgb(248, 208, 48);
+    border-color: rgb(218, 178, 18);
+}
+
+.Ice{
+    background-color: rgb(152, 216, 216);
+    border-color: rgb(122, 186, 186);
+}
+
+.Fighting{
+    background-color: rgb(192, 48, 40);
+    border-color: rgb(162, 18, 10);
+}
+
+.Poison{
+    background-color: rgb(160, 64, 160);
+    border-color: rgb(130, 34, 130);
+}
+
+.Ground{
+    background-color: rgb(224, 192, 104);
+    border-color: rgb(194, 162, 74);
+}
+
+.Flying{
+    background-color: rgb(168, 144, 240);
+    border-color: rgb(138, 114, 210);
+}
+
+.Psychic{
+    background-color: rgb(248, 88, 136);
+    border-color: rgb(218, 58, 106);
+}
+
+.Bug{
+    background-color: rgb(168, 184, 32);
+    border-color: rgb(138, 154, 2);
+}
+
+.Rock{
+    background-color: rgb(184, 160, 56);
+    border-color: rgb(154, 130, 26);
+}
+
+.Ghost{
+    background-color: rgb(112, 88, 152);
+    border-color: rgb(82, 58, 122);
+}
+
+.Dragon{
+    background-color: rgb(112, 56, 248);
+    border-color: rgb(82, 26, 218);
+}
+
+.Dark{
+    background-color: rgb(112, 88, 72);
+    border-color: rgb(82, 58, 42);
+}
+
+.Steel{
+    background-color: rgb(184, 184, 208);
+    border-color: rgb(154, 154, 178);
+}
+
+.Fairy{
+    background-color: rgb(238, 153, 172);
+    border-color: rgb(208, 123, 142);
+}

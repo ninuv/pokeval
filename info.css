@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.side{
+    max-width: 30%;
+    min-width: 0;
+}
+
+h2, h4{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin-top: 50px;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.back button{
+    height: 40px;
+    width: 80px;
+}
+
+
+.v-marker{
+    position: absolute;
+    overflow: visible;
+    width: fit-content;
+    font-style: italic;
+    right: 0;
+}

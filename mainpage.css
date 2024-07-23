@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+center div{
+    margin-top: 20%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+center div button{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    height: 40px;
+}
+
+.eval-btn{
+    color: black;
+}
+
+.info{
+    color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    font-size: medium;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="typeevo.css">
+    <title id="site-title">Pokémon Type Evaluation</title>
+</head>
+<body>
+    <div class="selects" id="selects">
+        <select name="select-type-amounts" id="select-type-amounts" class="select-type-amounts">
+            <option value="Monotype">Monotype</option>
+            <option value="Dualtype">Dualtype</option>
+        </select>
+        <select name="effectiveness" id="effectiveness">
+            <option value="Very-Effective">Very Effective</option>
+            <option value="Not-Very-Effective">Not Very Effective</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Immune">Immune</option>
+        </select>
+    </div>
+    
+    <center>
+        <!-- <h2>Effectiveness coefficients -- 1, 1/2, 2, 0</h2> -->
+        <div class="error-message" id="error-message" name="error-message"></div>
+        
+        <h1 id="description" name="description" class="description">Which Type is your opponent?</h1>
+        <input type="text" id="answer" name="answer" class="answer" placeholder="Types">
+        <button onclick="execute()" class="confirm">Confirm</button>
+        <button class="thistype" id="thistype"></button>
+
+        <h4 id="effective-title" name="effective-title" class="effective-title"></h4>
+        <div id="effective-types" class="effective-types" name="effective-types"></div>
+
+        <h4 id="very-title" name="very-title" class="very-title"></h4>
+        <div id="very-types" class="very-types" name="very-types"></div>
+    </center>
+
+    <script src="typeevo.js"></script>
+</body>
+</html>
